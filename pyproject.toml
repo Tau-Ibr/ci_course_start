@@ -50,3 +50,8 @@ testpaths = ["tests"]
 
 [tool.coverage.run]
 source = ["ci_course"]
+
+#gettin CI to work on da machine
+
+[tool.setuptools.package-data]
+ci_course = ["data/*.csv"]
